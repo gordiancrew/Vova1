@@ -1,10 +1,16 @@
 package com.company;
 
+
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("yyy");
-        int r=111;
+	ArrayList<String> list=new ArrayList<>();
+	list.add("aa");
+	list.add("bb");
+	list.add("cc");
+        System.out.println(list.indexOf("bb"));
+        System.out.println(list.indexOf("dd"));
     }
 }
